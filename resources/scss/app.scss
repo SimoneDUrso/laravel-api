@@ -1,0 +1,51 @@
+@import '~bootstrap/scss/bootstrap';
+
+header{
+    height: 70px;
+    background-color: #eeeeee;
+}
+
+main{
+    display: flex;
+    height: calc(100vh - 70px);
+
+    #sidebar{
+        width: 250px;
+        background-color: rgb(182, 182, 182);
+        background-color: #212529;
+    }
+
+    #content{
+        width: calc(100vw - 250px);
+        overflow-y: auto;
+    }
+}
+
+td{
+    img{
+        width: 250px;
+    }
+}
+
+.table-responsive{
+    img{
+        width: 80px;
+    }
+}
+
+.nav-item{
+    color: white;
+    transition: color 0.3s;
+
+    &:hover{
+        color: rgb(100, 100, 100);
+    }
+}
+
+.navbar-brand{
+    width: 55px;
+}
+
+
+
+
