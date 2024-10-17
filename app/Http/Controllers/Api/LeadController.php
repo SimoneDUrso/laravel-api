@@ -28,12 +28,12 @@ class LeadController extends Controller
             $errors = [
                 'name.required' => 'Il nome è obbligatorio',
                 'surname.required' => 'Il cognome è obbligatorio',
-                'email.required' => 'la mail è obbligatoria',
+                'email.required' => 'La mail è obbligatoria',
                 'phone.required' => 'Il telefono è obbligatorio',
                 'content.required' => 'Il contenuto della email è obbligatorio',
                 'name.max' => 'Il nome deve essere lungo al massimo :max caratteri',
                 'surname.max' => 'Il cognome deve essere lungo al massimo :max caratteri',
-                'email.max' => 'l\'indirizzo deve essere lungo al massimo :max caratteri',
+                'email.max' => 'L\'indirizzo deve essere lungo al massimo :max caratteri',
                 'phone.max' => 'Il numero di telefono deve essere lungo al massimo :max caratteri',
 
             ]
